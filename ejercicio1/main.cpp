@@ -1,17 +1,14 @@
 #include <iostream>
-#include "Tipos.h"
 using namespace std;
 
-int main() {
+int main(){
 
-entero base=0, entero altura=0;
-cout << "\ningrese la base:";
+int base=0, altura=0, area=0;
+cout << "\nIngrese la base:";
 cin >> base;
-cout << "\ningrese la altura:";
+cout << "\nIngrese la altura:";
 cin >> altura;
-
-
-// ToDO
-
-  return 0;
+area=(base*altura)/2;
+cout<<"El area del triangulo rectangulo producido por la base: "<<base<<" y la altura: "<<altura<<" es de: "<<area<<".";
+return 0;
 }
